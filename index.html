@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Hunter Form</title>
   </head>
+
   <body>
     <div class="image-container"></div>
+
     <div class="content">
       <div class="section-one">
         <h1>Monster Hunter World: Iceborne</h1>
@@ -17,26 +19,34 @@
           harum expedita laudantium qui sit libero amet in vel nam.
         </p>
       </div>
+
       <div class="section-two">
         <h2>Become a Hunter!</h2>
+
         <form action="">
-          <label for="fname">FIRST NAME</label>
-          <input type="text" name="fname" required />
-          <label for="lname">LAST NAME</label>
-          <input type="text" name="lname" required />
-          <label for="email">EMAIL</label>
-          <input type="email" name="email" required />
-          <label for="tel">PHONE NUMBER</label>
-          <input type="tel" name="tel" required />
-          <label for="password">PASSWORD</label>
-          <input type="password" name="password" required />
-          <label for="confirm">CONFIRM PASSWORD</label>
-          <input type="password" name="confirm" required />
-          <button type="submit">Register</button>
+          <div class="left-form">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" name="fname" required />
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" required />
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" required />
+          </div>
+
+          <div class="right-form">
+            <label for="lname">LAST NAME</label>
+            <input type="text" name="lname" required />
+            <label for="tel">PHONE NUMBER</label>
+            <input type="tel" name="tel" required />
+            <label for="confirm">CONFIRM PASSWORD</label>
+            <input type="password" name="confirm" required />
+            <button type="submit">Register</button>
+          </div>
         </form>
       </div>
+
       <div class="section-three">
-        <p>Already a hunter? <span>Log in</span></p>
+        <p class="login">Already a hunter? <span>Log in</span></p>
       </div>
     </div>
   </body>

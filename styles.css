@@ -32,21 +32,44 @@ body {
 
 .section-one {
   background: lightgrey;
+  padding: 25px;
 }
 
 .section-two {
   background: lightcyan;
+  padding: 25px;
 }
 
 .section-three {
   background: lightblue;
 }
 
-h1 {
-  padding: 25px 25px 0;
-}
-
 .definition {
   text-align: center;
   padding-top: 55px;
+}
+
+form {
+  display: flex;
+}
+
+.left-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-form {
+  display: flex;
+  flex-direction: column;
+}
+
+button[type="submit"] {
+  position: absolute;
+  top: 580px;
+  left: 650px;
+}
+
+.login {
+  margin-top: 75px;
+  margin-left: 25px;
 }
