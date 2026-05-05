@@ -1,30 +1,43 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
     <title>Hunter Form</title>
   </head>
 
   <body>
-    <div class="image-container"></div>
+    <div class="background">
+      <div class="logo-container"><img src="./assets/logo.png" alt="" /></div>
+    </div>
 
     <div class="content">
       <div class="section-one">
-        <h1>Monster Hunter World: Iceborne</h1>
         <p class="definition">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam non
-          ratione dolorem ipsam, enim quidem earum, aliquam at natus deleniti
-          harum expedita laudantium qui sit libero amet in vel nam.
+          Step into the frozen frontier of
+          <a
+            href="https://www.monsterhunter.com/world-iceborne/uk/"
+            target="_blank"
+            >Monster Hunter World: Iceborne</a
+          >, where relentless hunters chase legendary beasts across icy
+          wastelands. Face fiercer monsters, master powerful gear, and prove
+          your strength in a world where every hunt is a battle for survival.
         </p>
-      </div>
 
-      <div class="section-two">
-        <h2>Become a Hunter!</h2>
+        <p style="font-size: 21px; font-weight: 600; padding-top: 70px">
+          Become a Hunter!
+        </p>
 
         <form action="">
-          <div class="left-form">
+          <div class="left-side">
             <label for="fname">FIRST NAME</label>
             <input type="text" name="fname" required />
             <label for="email">EMAIL</label>
@@ -33,11 +46,11 @@
             <input type="password" name="password" required />
           </div>
 
-          <div class="right-form">
+          <div class="right-side">
             <label for="lname">LAST NAME</label>
             <input type="text" name="lname" required />
             <label for="tel">PHONE NUMBER</label>
-            <input type="tel" name="tel" required />
+            <input type="tel" name="tel" pattern="[0-9]" required />
             <label for="confirm">CONFIRM PASSWORD</label>
             <input type="password" name="confirm" required />
             <button type="submit">Register</button>
@@ -45,8 +58,10 @@
         </form>
       </div>
 
-      <div class="section-three">
-        <p class="login">Already a hunter? <span>Log in</span></p>
+      <div class="section-two">
+        <p class="login">
+          Already a hunter? <a href="#" style="font-weight: 600">Log in</a>
+        </p>
       </div>
     </div>
   </body>
