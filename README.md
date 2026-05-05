@@ -4,9 +4,7 @@ This website is inspired by the [Monster Hunter World: Iceborne](https://www.mon
 
 This is just a local website and a learning project from [The Odin Project](https://www.theodinproject.com/).
 
-The code is not fully optimized and is also not responsive. Although this project is not complex, it is frontend only and built from scratch.
-
-[Live Demo](https://markjasperrojas.github.io/sign-up-form/)
+The code is not fully optimized and is also not responsive. Although this project is not complex, it is frontend only and built from scratch. [Live Demo](https://markjasperrojas.github.io/sign-up-form/)
 
 ### Image Credits
 
